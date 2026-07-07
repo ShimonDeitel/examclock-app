@@ -1,0 +1,42 @@
+{
+  "identifier": "storekit_config",
+  "nonRenewingSubscriptions": [],
+  "products": [],
+  "settings": {
+    "_locale": "en_US"
+  },
+  "subscriptionGroups": [
+    {
+      "id": "SUBGROUP1",
+      "localizations": [],
+      "name": "Examclock Pro",
+      "subscriptions": [
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "1.99",
+          "familyShareable": false,
+          "groupNumber": 1,
+          "internalID": "SUB1",
+          "introductoryOffer": null,
+          "localizations": [
+            {
+              "description": "Pin multiple exam countdowns as widgets on your home screen.",
+              "displayName": "Home Screen Widgets",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "com.shimondeitel.examclock.pro.monthly",
+          "recurringSubscriptionPeriod": "P1M",
+          "referenceName": "Examclock Pro Monthly",
+          "subscriptionGroupID": "SUBGROUP1",
+          "type": "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version": {
+    "major": 3,
+    "minor": 0
+  }
+}
